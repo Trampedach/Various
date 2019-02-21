@@ -15,6 +15,7 @@ public class TopicService {
 			new Topic("Pascal", "Borland", "Borland framework Description"),
 			new Topic("C++", "Turbo", "Turbo c++ framework Description"),
 			new Topic("Python", "Unknown", "Unknown"),
+			new Topic("JavaScript", "Unknown", "Unknown"),
 			new Topic("Cobol", "Ibm Framework", "Ibm Cobol Description"),
 			new Topic("PL1", "Ibm Framework", "Ibm Pl1 Description")));
 	
