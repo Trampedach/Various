@@ -10,11 +10,12 @@ import org.springframework.stereotype.Service;
 public class TopicService {
 
 	private List<Topic> topics = new ArrayList<>(Arrays.asList(
-			new Topic("Spring1", "Spring1 Framework", "Spring1 framework Description"),
-			new Topic("Spring2", "Spring2 Framework", "Spring2 framework Description"),
-			new Topic("Spring3", "Spring3 Framework", "Spring3 framework Description"),
-			new Topic("Spring4", "Spring4 Framework", "Spring4 framework Description"),
-			new Topic("Spring5", "Spring5 Framework", "Spring5 framework Description")));
+			new Topic("Spring", "Spring1 Framework", "Spring1 framework Description"),
+			new Topic("C#", "Microsoft .net", ".net framework Description"),
+			new Topic("Pascal", "Borland", "Borland framework Description"),
+			new Topic("C++", "Turbo", "Turbo c++ framework Description"),
+			new Topic("Python", "Unknown", "Unknown"),
+			new Topic("PL1", "Ibm Framework", "Ibm Pl1 Description")));
 	
 	public List<Topic> getAllTopics() {
 		return topics;
